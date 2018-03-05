@@ -5,16 +5,18 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/miwok_word"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:paddingTop="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         tools:text="lutti"/>
 
     <TextView
+        android:id="@+id/english_word"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
         tools:text="one"/>
 
 </LinearLayout>
